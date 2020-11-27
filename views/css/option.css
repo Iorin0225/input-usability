@@ -1,0 +1,41 @@
+* {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.option-content {
+  text-align: center;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.option-row {
+  margin: 1rem 0;
+  padding: 2rem 1rem;
+  border: 2px solid #666;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+label {
+  display: inline-block;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid #666;
+  border-radius: 0;
+
+  display: inline-block;
+  text-align: center;
+}
